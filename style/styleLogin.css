@@ -1,0 +1,12 @@
+body {
+  font: 14px 
+  sans-serif; 
+  background-color: #353B40; 
+  color: white;
+}
+
+.wrapper{ 
+  width: 350px;
+  padding: 20px;
+}
+
