@@ -33,5 +33,5 @@
             <a href="login/redefine.php" class="btn btn-warning">Reset sua Password</a>&nbsp;
             <a href="login/logout.php" class="btn btn-danger">Sair da sua Conta</a>
         </div>
-
+        
     </header>
