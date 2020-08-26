@@ -12,8 +12,8 @@ In addition to manipulating the data in PHP to receive information from the data
 To create the database and execute the code via "Apache", "Xampp" was used.
   <br><br>
   
-  <img src="img/login1.png"><br>
-  <img src="img/registro.png"><br><br>
+  <img src="img/login1.png" ><br>
+  <img src="img/registro.png" width="602px"><br><br>
   <img src="img/logada1.png">
   <br><br>
 
