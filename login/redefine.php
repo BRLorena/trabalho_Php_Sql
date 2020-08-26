@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Prepara um UPDATE
     $sql = "UPDATE users SET password = :password WHERE id = :id";
         
-    if($stmt = $pdo->prepare($sql)){
+    if($stmt = $conn->prepare($sql)){
       // Vincular variáveis a pass e id
       $stmt->bindParam(":password", $param_password, PDO::PARAM_STR);
       $stmt->bindParam(":id", $param_id, PDO::PARAM_INT);
@@ -101,7 +101,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
         <div class="form-group">
           <input type="submit" class="btn btn-primary" value="Submit">
-          <a class="btn btn-primary" class="btn btn-link" href="welcome.php">Cancel</a>
+          <a class="btn btn-primary" class="btn btn-link" href="lista.php">Cancel</a>
         </div>
       </form>
     </div>    
